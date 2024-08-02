@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="#">
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/media.css" />
+  <title>bootstrap</title>
+</head>
+<body>
+  <audio autoplay loop id="ost">
+  </audio>
+  <div class="style">
+    <h1>Quote of the Day</h1>
+    <div class="quotes">
+      <audio controlsList="nodownload" autoplay id="qoutes-sound">
+        <source autoplay src="" type="audio/mp3">
+      </audio>
+      <p id="quote" class="quote fromto1">"A man who is not a father to his children can never be a real man"</p>
+      <h2 id="author">- Mario Puzo, The Godfather -</h2>
+    </div>
+    <button class="cd" onclick="generateQuote();">
+      <span id="spin" class="spin">New Quote</span>
+      <span class="disk"></span>
+    </button>
+  </div>
+  <script src="./js/main.js"></script>
+</body>
+</html>

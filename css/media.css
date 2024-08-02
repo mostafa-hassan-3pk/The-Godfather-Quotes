@@ -1,0 +1,39 @@
+/* sm */
+@media (min-width: 576px) {
+}
+/* md */
+@media (min-width: 768px) {
+  .cd {
+    width: 100px;
+    height: 100px;
+    font-size: 0.5rem;
+  }
+  .cd .disk {
+    top: -52px;
+    right: -25px;
+  }
+}
+/* l */
+@media (min-width: 992px) {
+  .cd {
+    width: 150px;
+    height: 150px;
+    font-size: 0.75rem;
+  }
+  .cd .disk {
+    top: -73px;
+    right: -36px;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  p {
+    font-size: 3rem;
+  }
+}
+/* xl */
+@media (max-width: 1200px) {
+}
+/* xxl */
+@media (min-width: 1400px) {
+}
